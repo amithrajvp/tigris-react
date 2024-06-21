@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+header .container {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+}
+
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid darkgray;
+}
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#logolink {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+
+}
+#logo {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+#logolink,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-family: "Lora", serif;
+      
+      font-weight: 600;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2rem;
+
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+p {
+  color: black;
+  max-width: 640px;
+}
+.button {
+  text-decoration: none;
+  height: 40px;
+  display : flex;
+  flex-direction : row;
+  text-decoration: none;
+  gap: 0.5rem;
+  align-items : center;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+
+}
+.buttonprimary {
+  background-color: black;
+  color: aliceblue;
+}
+.buttonsecondary {
+  color: black;
+  border: 1px solid grey;
+}
+
+
+
+
+nav {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  #logo {
+      display: none;
+  }
+  nav {
+      display: block;
+  }
+  nav ul {
+      display : flex;
+      flex-direction : row;
+      gap: 1.25rem;
+      text-decoration: none;
+      list-style: none;
+  }
+  nav a {
+      text-decoration: none;
+      color: black;
+  }
+}
+@media screen and (min-width: 600px) {
+  .buttons {
+      flex-direction: row;
+  }
+      
+    }
+
+    
+@media screen and (min-width: 992px) {
+      
+    }
+@media screen and (min-width: 1200px) {
+      
+    }      
+
